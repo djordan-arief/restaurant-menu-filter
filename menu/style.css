@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('background.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* title */
+
+h2{
+    font-family: 'Tapestry', cursive;
+    text-decoration: underline orangered;
+    color: whitesmoke;
+}
+
+/* filter buttons */
+.btn{
+    margin-top: 10px;
+    width: 200px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    padding: 4px;
+    background-color: gold;
+    color: white;
+    border-radius: 0.3rem;
+    width: 50px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: orange;
+}
+
+/* menu-items */
+.section-center{
+    margin-top: 40px;
+    width: fit-content;
+    height: 390px;
+    overflow: scroll;
+    display: grid;
+    grid-template-columns: 220px 220px;
+    gap: 10px;
+}
+
+.menu-item{
+    width: 200px;
+    height: 100px;
+    border: 2px solid goldenrod;
+    margin-top: 20px;
+    color: white;
+}
+
+.menu-item img{
+    width: 100%;
+    height: 100%;
+}
+
+/* menu information */
+.item-info{
+    font-family: 'Tapestry', cursive;
+    width: 230px;
+    color:green;
+}
+
+.item-info h5{
+    font-family: 'Quicksand', sans-serif;
+    color:brown;
+}
+
